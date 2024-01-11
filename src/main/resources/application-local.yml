@@ -6,7 +6,7 @@ spring:
     #    jdbc-url: ENC(OeSJv8Nr2YS9m/w1hulOVDOe96NtZ/uA8bdh2eTbsEmrmAqkVKcSBytYV23OAK08IobWl2wpsXQnmoef5bUecfFipvWGm1TJ66C4J8uRCmbgYiSaOvdwBA==)
     #    url: ENC(tVnzqapg3VeEvSspQtfccGkvYrMpgIEEErReQxx0veBIqwakoZt/tl2zre7yUxgQHQAk0bZ05Ik5nec1NyhWk8vGYa5J5uQKmk2T90iTEpdLX2DVduf3mw==)
     username: root
-    password: lime
+    password: 1234
     url: jdbc:mysql://localhost:3306/devdb?allowMultiQueries=true # 새로운 db서버
 #    url: jdbc:log4jdbc:mariadb://121.170.188.98:33316/terarosa?allowMultiQueries=true # 새로운 db서버
   freemarker:

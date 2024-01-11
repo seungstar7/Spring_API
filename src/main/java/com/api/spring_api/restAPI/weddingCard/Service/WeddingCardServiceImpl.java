@@ -14,11 +14,11 @@ public class WeddingCardServiceImpl implements WeddingCardService {
     private final WeddingCardDAO weddingCardDAO;
 
     @Override
-    public String wedding() {
+    public List<Map<String,Object>> wedding() {
         List<Map<String,Object>> list = weddingCardDAO.testDB();
         list.stream().forEach((it)->{
             System.out.println(it);
         });
-        return "service is working";
+        return list;
     }
 }
