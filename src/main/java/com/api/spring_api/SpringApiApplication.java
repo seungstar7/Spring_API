@@ -20,7 +20,7 @@ public class SpringApiApplication {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins("http://localhost:3000")
-                        .allowedOrigins("https://seungstar7.github.io/Spring_API")
+                        .allowedOrigins("https://seungstar7.github.io/React_WeddingCard")
                         .allowCredentials(true);
 //                registry.addMapping("/**").allowedOrigins("http://192.168.219.108:14401");
             }
