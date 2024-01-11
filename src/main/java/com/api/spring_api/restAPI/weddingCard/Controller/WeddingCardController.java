@@ -10,6 +10,7 @@ import java.util.Map;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api")
+@CrossOrigin(origins = "*", allowCredentials = "false")
 public class WeddingCardController {
     private final WeddingCardService weddingCardService;
 
